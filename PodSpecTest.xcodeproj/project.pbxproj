@@ -15,6 +15,9 @@
 		B8BB37351E8CDA1C00624BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BB37331E8CDA1C00624BDA /* LaunchScreen.storyboard */; };
 		B8BB37401E8CDA1C00624BDA /* PodSpecTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB373F1E8CDA1C00624BDA /* PodSpecTestTests.m */; };
 		B8BB374B1E8CDA1C00624BDA /* PodSpecTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB374A1E8CDA1C00624BDA /* PodSpecTestUITests.m */; };
+		B8BB375C1E8CE12200624BDA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB375A1E8CE12200624BDA /* MainViewController.m */; };
+		B8BB375D1E8CE12200624BDA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BB375B1E8CE12200624BDA /* MainViewController.xib */; };
+		B8BB375F1E8CE13100624BDA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BB375E1E8CE13100624BDA /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		B8BB37461E8CDA1C00624BDA /* PodSpecTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodSpecTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BB374A1E8CDA1C00624BDA /* PodSpecTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodSpecTestUITests.m; sourceTree = "<group>"; };
 		B8BB374C1E8CDA1C00624BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BB37591E8CE12200624BDA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = PodSpecTest/MainViewController.h; sourceTree = "<group>"; };
+		B8BB375A1E8CE12200624BDA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = PodSpecTest/MainViewController.m; sourceTree = "<group>"; };
+		B8BB375B1E8CE12200624BDA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = PodSpecTest/MainViewController.xib; sourceTree = "<group>"; };
+		B8BB375E1E8CE13100624BDA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = PodSpecTest/Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		B8BB37241E8CDA1B00624BDA /* PodSpecTest */ = {
 			isa = PBXGroup;
 			children = (
+				B8BB37581E8CE10000624BDA /* PodSpecTest */,
 				B8BB37281E8CDA1B00624BDA /* AppDelegate.h */,
 				B8BB37291E8CDA1B00624BDA /* AppDelegate.m */,
 				B8BB372B1E8CDA1B00624BDA /* ViewController.h */,
@@ -138,6 +146,17 @@
 				B8BB374C1E8CDA1C00624BDA /* Info.plist */,
 			);
 			path = PodSpecTestUITests;
+			sourceTree = "<group>";
+		};
+		B8BB37581E8CE10000624BDA /* PodSpecTest */ = {
+			isa = PBXGroup;
+			children = (
+				B8BB37591E8CE12200624BDA /* MainViewController.h */,
+				B8BB375A1E8CE12200624BDA /* MainViewController.m */,
+				B8BB375B1E8CE12200624BDA /* MainViewController.xib */,
+				B8BB375E1E8CE13100624BDA /* Media.xcassets */,
+			);
+			name = PodSpecTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BB375F1E8CE13100624BDA /* Media.xcassets in Resources */,
 				B8BB37351E8CDA1C00624BDA /* LaunchScreen.storyboard in Resources */,
 				B8BB37321E8CDA1C00624BDA /* Assets.xcassets in Resources */,
 				B8BB37301E8CDA1B00624BDA /* Main.storyboard in Resources */,
+				B8BB375D1E8CE12200624BDA /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +300,7 @@
 				B8BB372D1E8CDA1B00624BDA /* ViewController.m in Sources */,
 				B8BB372A1E8CDA1B00624BDA /* AppDelegate.m in Sources */,
 				B8BB37271E8CDA1B00624BDA /* main.m in Sources */,
+				B8BB375C1E8CE12200624BDA /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
